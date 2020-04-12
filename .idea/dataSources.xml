@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="master" uuid="33f1fb2d-ced1-4a58-8838-f2811bc66d71">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>master</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://47.106.87.72:3307/mysql</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="slave1" uuid="c48f885f-0841-45be-b44d-927dbc3d5ea1">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>slave1</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://47.106.87.72:3308/mysql</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="slave2" uuid="94ec6a87-4a6d-4534-b04e-c50dab269e9a">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>slave2</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://47.106.87.72:3309/mysql</jdbc-url>
+    </data-source>
+  </component>
+</project>
