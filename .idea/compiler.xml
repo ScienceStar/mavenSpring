@@ -9,8 +9,5 @@
         <module name="mavenSpring" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="mavenSpring" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
