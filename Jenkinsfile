@@ -16,7 +16,6 @@ pipeline {
                 sh 'pwd && ls -alh'
             }
         }
-
         stage('stage2.项目编译'){
             steps {
                sh 'mvn clean package -Dmaven.test.skip=true'
