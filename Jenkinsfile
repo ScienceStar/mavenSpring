@@ -3,6 +3,7 @@ pipeline {
     environment {
       WS = "$WORKSPACE"
     }
+
     //定义流水线的加工流程
     stages {
         stage('stage1.环境检查'){
