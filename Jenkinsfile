@@ -21,6 +21,7 @@ pipeline {
                sh 'mvn clean package -Dmaven.test.skip=true'
             }
         }
+
         stage('stage3.应用部署'){
             steps {
                 sh 'docker-compose -f docker-compose.dev.yml -p fenix up -d'
