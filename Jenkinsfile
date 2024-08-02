@@ -5,7 +5,7 @@ pipeline {
     }
     //定义流水线的加工流程
     stages {
-        stage('1.环境检查'){
+        stage('stage1.环境检查'){
             steps {
                 sh 'printenv'
                 sh 'id'
@@ -16,12 +16,12 @@ pipeline {
                 sh 'pwd && ls -alh'
             }
         }
-        stage('2.项目编译'){
+        stage('stage2.项目编译'){
             steps {
                sh 'mvn clean package -Dmaven.test.skip=true'
             }
         }
-        stage('3.应用部署'){
+        stage('stage3.应用部署'){
             steps {
                 sh 'docker-compose -f docker-compose.dev.yml -p fenix up -d'
             }
